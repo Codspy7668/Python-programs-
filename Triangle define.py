@@ -1,0 +1,6 @@
+a=int(input("Enter the first side of triangle"))
+b=int(input("Enter the second side of triangle"))
+c=int(input("Enter the third side of triangle"))
+a==b and b==c and c==a and print("Equilateral Triangle")
+a!=b or b!=c or c!=a or b==c or c==a or a==b or print("Isosceles Triangle")
+a!=b and b!=c and c!=a and print("Scalene Triangle")
